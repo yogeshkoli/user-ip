@@ -2,10 +2,33 @@
 
 [![N|Solid](http://www.itechempires.com/wp-content/uploads/2017/07/logo.png)](http://www.itechempires.com/)
 
-PHP User IP Address Class Library is used to get current User IP Address and validate given IP address.
+PHP User IP Address Class Library is used to get current User IP Address and valiated given IP address.
 
+### Installation
 
-### How to Use this package?
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+To install PHP UserIP library Use following command:
+
+    $ composer require yogeshkoli/user-ip
+
+Or you can also clone the complete repository with Git Use following command:
+
+	$ https://github.com/yogeshkoli/user-ip.git
+
+### Requirements
+
+This library is supported by PHP versions 5.6
+
+### Available Methods
+
+Available methods in this library:
+
+```php
+UserIP::get();
+UserIP::validate($ip);
+```
+### How to Use this package? 
 Here is sample examples of using this package:
 #### Get User IP Address:
 ```php
