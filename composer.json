@@ -25,10 +25,5 @@
     "psr-4": {
       "YogeshKoli\\UserIP\\": "src/"
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "YogeshKoli\\UserIP\\Test\\": "tests/"
-    }
   }
 }
