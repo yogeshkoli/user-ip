@@ -1,5 +1,10 @@
 # PHP User IP Address library
 
+[![Latest Stable Version](https://poser.pugx.org/yogeshkoli/user-ip/version)](https://packagist.org/packages/yogeshkoli/user-ip)
+[![Total Downloads](https://poser.pugx.org/yogeshkoli/user-ip/downloads)](https://packagist.org/packages/yogeshkoli/user-ip)
+[![Latest Unstable Version](https://poser.pugx.org/yogeshkoli/user-ip/v/unstable)](//packagist.org/packages/yogeshkoli/user-ip)
+[![License](https://poser.pugx.org/yogeshkoli/user-ip/license)](https://packagist.org/packages/yogeshkoli/user-ip)
+
 [![N|Solid](http://www.itechempires.com/wp-content/uploads/2017/07/logo.png)](http://www.itechempires.com/)
 
 PHP User IP Address Class Library is used to get current User IP Address and valiated given IP address.
