@@ -20,7 +20,7 @@ class UserIP
      *
      * @return bool|null|string
      */
-    static public function get()
+    public static function get()
     {
         if (!isset(self::$ip)) {
             self::$ip = self::_check_ip();
@@ -46,7 +46,7 @@ class UserIP
             }
         }
 
-        return 'UNKNOWN';
+        return FALSE;
     }
 
     /**
@@ -69,5 +69,17 @@ class UserIP
         } else {
             return 'UNKNOWN';
         }
+    }
+
+    /**
+     * Validate Given IP Address
+     *
+     * @param $ip
+     *
+     * @return bool
+     */
+    public static function validate($ip)
+    {
+        return (filter_var($ip, FILTER_VALIDATE_IP)) ? TRUE : FALSE;
     }
 }
