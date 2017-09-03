@@ -7,7 +7,7 @@
 
 [![N|Solid](http://www.itechempires.com/wp-content/uploads/2017/07/logo.png)](http://www.itechempires.com/)
 
-PHP User IP Address Class Library is used to get current User IP Address and valiated given IP address.
+PHP User IP Address Class Library is used to get current User IP Address and validate given IP address.
 
 ### Installation
 
